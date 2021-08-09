@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/e9ded4ae87.js"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo1.png" alt="logo"></a>
+            <div id="logo"></div>
+            <div class="menu" id="menu">
+                <i class="fa fa-times" onclick="hide()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="show()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Sonish University</h1>
+            <p>As one of the only software development master’s degree programs in the Nepal,
+                the MS in Software Development <br> at Sonish University is ideal for those who
+                enjoy programming.</p>
+            <a href="#" class="enroll-btn">Enroll Now!</a>
+        </div>
+
+                <!-- Fucking Javascriptttt -->
+                <script>
+                    var menu = document.getElementById('menu');
+            
+                    function show() {
+                        menu.style.right = "0";
+                    }
+                    function hide() {
+                        menu.style.right = "-200px";
+                    }
+                </script>
+
+    </section>
+
+    
+    <!-- -------footer startssssssssssssssp-------- -->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse in, quo magnam nam provident omnis. Aut eos 
+            facilis explicabo, laboriosam <br> vitae repudiandae quibusdam repellendus? Enim quod exercitationem maiores 
+            mollitia deserunt.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-youtube-play"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+
+            </div>
+            <p>© 2021 Sonish Dhakal All Rights Reserved</p>
+
+            
+    </section>
+    
+
+
+</body>
+
+</html>
